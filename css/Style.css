@@ -1,0 +1,111 @@
+#container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #4ECFC9;
+}
+
+.Cuerpo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    animation: infinite;
+}
+
+.Nariz{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 5;
+}
+
+.Zapatoizq{
+    position: absolute;
+    top: 520px;
+    left: 750px;
+    z-index: 0;
+    transition: .5s;
+}
+
+.Zapatoder{
+    position: absolute;
+    top: 520px;
+    right: 750px;
+    z-index: 0;
+}
+
+.Sombrero{
+    position: absolute;
+    right: 5px;
+    left: 0;
+    top: 130px;
+    transition: 5s ;
+    margin: auto;
+    z-index: 1;
+}
+
+.Bigote{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 420px;
+    z-index: 1;
+    transition: .5s;
+}
+
+.Ojoizq{
+    position: absolute;
+    left: 750px;
+    top: 300px;
+    z-index: 2;
+    transition: 5s;
+}
+
+.Ojoder{
+    position: absolute;
+    right: 750px;
+    top: 300px;
+    z-index: 1;
+    transition: 5s;
+}
+
+.Orejaizq{
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    z-index: 0;
+}
+
+.Orejader{
+    position: absolute;
+    right: 500px;
+    top: 300px;
+    z-index: 0;
+}
+
+.Sombrero:hover{
+    top: -5px;
+    transform: rotate(200deg);
+}
+
+.Ojoder:hover{
+    transform: rotate(700deg);
+    top: 20px;
+}
+
+.Ojoizq:hover{
+    transform: rotate(640px);
+    top: 20px;
+}
+
+.Bigote:hover{
+    transform: rotate(300deg);
+}
